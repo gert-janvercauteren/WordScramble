@@ -16,6 +16,7 @@
 		79538A9624A90454004A136A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79538A9424A90454004A136A /* LaunchScreen.storyboard */; };
 		79538AA124A90454004A136A /* WordScrambleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79538AA024A90454004A136A /* WordScrambleTests.swift */; };
 		79538AAC24A90454004A136A /* WordScrambleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79538AAB24A90454004A136A /* WordScrambleUITests.swift */; };
+		79538ABA24A91221004A136A /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79538AB924A91221004A136A /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		79538AA724A90454004A136A /* WordScrambleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordScrambleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79538AAB24A90454004A136A /* WordScrambleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleUITests.swift; sourceTree = "<group>"; };
 		79538AAD24A90454004A136A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79538AB924A91221004A136A /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		79538A8524A90453004A136A /* WordScramble */ = {
 			isa = PBXGroup;
 			children = (
+				79538AB924A91221004A136A /* start.txt */,
 				79538A8624A90453004A136A /* AppDelegate.swift */,
 				79538A8824A90453004A136A /* SceneDelegate.swift */,
 				79538A8D24A90453004A136A /* ContentView.swift */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79538A9624A90454004A136A /* LaunchScreen.storyboard in Resources */,
+				79538ABA24A91221004A136A /* start.txt in Resources */,
 				79538A9324A90454004A136A /* Preview Assets.xcassets in Resources */,
 				79538A9024A90454004A136A /* Assets.xcassets in Resources */,
 			);
@@ -440,7 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"WordScramble/Preview Content\"";
-				DEVELOPMENT_TEAM = WHQ2TM33K6;
+				DEVELOPMENT_TEAM = 7Y7LCZG38H;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WordScramble/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -460,7 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"WordScramble/Preview Content\"";
-				DEVELOPMENT_TEAM = WHQ2TM33K6;
+				DEVELOPMENT_TEAM = 7Y7LCZG38H;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WordScramble/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
